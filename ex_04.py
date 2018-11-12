@@ -76,4 +76,24 @@ result = " ".join(poem3)
 print(result)
 
 # 10、字符串的切片
-
+# 字符串【开始索引：结束索引：步长】
+num_str="0123456789"
+# 2~5
+print(num_str[2:6])
+# 2~末尾
+print(num_str[2:])
+# 开始～5
+print(num_str[:6])
+# 截取完整字符串
+print(num_str[:])
+# 从开始处每隔1个字符截取
+print(num_str[::2])
+#从1开始每隔一个
+print(num_str[1::2])
+# 从2开始到倒数第一个字符
+print(num_str[2:-1])
+# 得到末尾两个数字
+print(num_str[-2:])
+# 通过切片得到字符串的逆序
+print(num_str[-1::-1])
+print(num_str[::-1])
